@@ -1,1 +1,5 @@
-1
+import cv2
+
+img = cv2.imread("Hello.jpg")
+
+cv2.imshow(img,"window")
